@@ -8,14 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "biome:check": "biome check",
-    "biome:fix": "pnpm biome:check --write",
-    "biome:ci": "biome ci",
-    "type:check": "tsc",
     "test": "vitest run",
     "test:ui": "vitest --ui --coverage",
-    "test:coverage": "vitest --coverage run"
-  },
+    "test:coverage": "vitest --coverage run"  },
   "dependencies": {
     "@chakra-ui/react": "^3.1.0",
     "@chakra-ui/theme": "^3.4.6",
@@ -25,6 +20,7 @@
     "axios": "^1.7.7",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.11.11",
+    "knip": "^5.36.3",
     "million": "3.1.11",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",

@@ -32,10 +32,10 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    million.vite({ auto: true }),
     react(),
     checker({
       typescript: true,
-      biome: true,
     }),
     tsconfigPaths(),
     visualizer({ template: 'sunburst' }) as unknown as PluginOption,
