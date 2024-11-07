@@ -1,12 +1,14 @@
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-const APP_NAME = 'vite-react-chakra-starter';
+const APP_NAME = 'Zeke';
 
 export const Meta = () => {
   return (
+    <HelmetProvider>
+
     <Helmet>
-      <title>Vite React Chakra Starter</title>
-      <meta name="description" content="Vite React Chakra Starter Template" />
+      <title>Zeke | Homepage</title>
+      <meta name="description" content="Zeke" />
 
       <meta name="application-name" content={APP_NAME} />
       <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,7 +18,9 @@ export const Meta = () => {
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="theme-color" content="#FFFFFF" />
 
-      <link rel="shortcut icon" href="/assets/favicon.svg" />
+      <link rel="shortcut icon" href="/assets/favicon.png" />
     </Helmet>
+    </HelmetProvider>
+
   );
 };

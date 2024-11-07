@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom/client';
 // fonts
 import '@fontsource-variable/plus-jakarta-sans';
 
-import { App } from './App';
+import { App } from './app';
+
+import "../src/css/index.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,

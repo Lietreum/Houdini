@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Default light mode background and text colors */
+:root {
+  --root-color: #f7f7f7; /* Default light mode color */
+}
+
+html, body {
+  background-color: var(--root-color);
+}
+
+.in-card {
+  background-size: 180%;
+  position: relative;
+  overflow: hidden;
+  --gradient-color-1: rgb(11 12 14 / 55%);
+  background-image: linear-gradient(to bottom, var(--gradient-color-1) 0%, #27272ba1 200px), url(../images/webzibition_cover.webp);
+  background-repeat: no-repeat;
+  background-position: 54% 0%;
+}
