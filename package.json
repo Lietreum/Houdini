@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "biome:check": "biome check",
-    "biome:fix": "pnpm biome:check --write",
-    "biome:ci": "biome ci",
+
     "type:check": "tsc",
     "test": "vitest run",
     "test:ui": "vitest --ui --coverage",
