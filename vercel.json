@@ -1,0 +1,11 @@
+{
+    "build": {
+      "env": {
+        "ENABLE_EXPERIMENTAL_COREPACK": "1"
+      }
+    },
+    "scripts": {
+      "build": "vite build"
+    }
+  }
+  
