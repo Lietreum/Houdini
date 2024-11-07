@@ -15,7 +15,6 @@
     "test": "vitest run",
     "test:ui": "vitest --ui --coverage",
     "test:coverage": "vitest --coverage run",
-    "check:turbo": "pnpm turbo biome:check type:check test",
     "knip": "knip"
   },
   "dependencies": {
