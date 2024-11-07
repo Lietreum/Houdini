@@ -48,14 +48,14 @@
           }
         },
         "useFilenamingConvention": {
-          "level": "warn",
+          "level": "off",
           "options": {
             "filenameCases": ["kebab-case"]
           }
         }
       },
       "suspicious": {
-        "noConsole": "error",
+        "noConsole": "off",
         "noConsoleLog": "error",
         "noEmptyBlockStatements": "error",
         "useAwait": "error"
