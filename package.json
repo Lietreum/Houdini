@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "author": "Lietreun",
-  "packageManager": "npm@latest",
   "type": "module",
   "scripts": {
     "dev": "vite",
