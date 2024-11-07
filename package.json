@@ -14,8 +14,7 @@
     "type:check": "tsc",
     "test": "vitest run",
     "test:ui": "vitest --ui --coverage",
-    "test:coverage": "vitest --coverage run",
-    "knip": "knip"
+    "test:coverage": "vitest --coverage run"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.1.0",
@@ -50,7 +49,6 @@
     "autoprefixer": "^10.4.20",
     "commit-and-tag-version": "^12.5.0",
     "cross-env": "^7.0.3",
-    "knip": "^5.34.4",
     "lint-staged": "^15.2.10",
     "postcss": "^8.4.47",
     "rollup-plugin-visualizer": "^5.12.0",
