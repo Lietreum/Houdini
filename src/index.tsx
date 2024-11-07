@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 // fonts
 import '@fontsource-variable/plus-jakarta-sans';
 
-import { App } from './app';
+import { App } from './app.tsx';
 
 import "../src/css/index.css";
 
