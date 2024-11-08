@@ -14,8 +14,8 @@ const BlogPostList = () => {
   const [blogs, setBlogs] = useState<Array<BlogPost>>([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/blogs')
-      .then(response => response.json())
+    fetch('https://houdini-api.vercel.app/api/blogs')
+    .then(response => response.json())
       .then(data => setBlogs(data))
       .catch(error => console.error('Error fetching blog data:', error));
   }, []);

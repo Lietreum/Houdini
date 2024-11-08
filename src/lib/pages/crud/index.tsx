@@ -27,7 +27,7 @@ const App: React.FC = () => {
   // Fetch blogs from the API
   const fetchBlogs = useCallback(async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/blogs');
+      const response = await axios.get('https://houdini-api.vercel.app/api/blogs');
       setBlogs(response.data);
     } catch (error) {
       if (process.env.NODE_ENV === 'development') {
@@ -39,7 +39,7 @@ const App: React.FC = () => {
   // Create a new blog post
   const createBlog = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/api/blogs', newBlog);
+      const response = await axios.post('https://houdini-api.vercel.app/api/blogs', newBlog);
       setBlogs([...blogs, response.data]);
       setNewBlog({ title: '', imageUrl: '', author: '', authorUrl: '', postUrl: '', timestamp: new Date().toISOString() });
     } catch (error) {
@@ -53,7 +53,7 @@ const App: React.FC = () => {
   const updateBlog = async () => {
     if (editBlog?._id) {
       try {
-        const response = await axios.put(`http://localhost:3000/api/blogs/${editBlog._id}`, editBlog);
+        const response = await axios.put(`https://houdini-api.vercel.app/api/blogs/${editBlog._id}`, editBlog);
         setBlogs(blogs.map(blog => (blog._id === editBlog._id ? response.data : blog)));
         setEditBlog(null);
       } catch (error) {
@@ -67,7 +67,7 @@ const App: React.FC = () => {
   // Delete a blog post
   const deleteBlog = async (id: string) => {
     try {
-      await axios.delete(`http://localhost:3000/api/blogs/${id}`);
+      await axios.delete(`https://houdini-api.vercel.app/api/blogs/${id}`);
       setBlogs(blogs.filter(blog => blog._id !== id));
     } catch (error) {
       if (process.env.NODE_ENV === 'development') {
