@@ -14,7 +14,7 @@ const BlogPostList = () => {
   const [blogs, setBlogs] = useState<Array<BlogPost>>([]);
 
   useEffect(() => {
-    fetch('https://zeke-site.vercel.app/api/blogs', {
+    fetch('https://houdini-api.vercel.app/api/blogs', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
