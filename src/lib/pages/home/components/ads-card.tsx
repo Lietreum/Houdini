@@ -10,13 +10,12 @@ const CosCard: React.FC = () => {
     >
       <div className="w-full h-full">
         <img
-          src="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/06/meco.jpg?x21305"
+          src="https://plus.unsplash.com/premium_photo-1683287925874-f8b46c6437ae?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Meco"
           className="w-full rounded-t-lg"
         />
         <div className="p-6 text-sm leading-relaxed text-gray-800">
-          Meco is a distraction-free space for reading and discovering newsletters, separate from the inbox. Try it,
-          unclutter your inbox.
+          Youtube is a platform where you can create and watch videos. this card serve purpose as an ads card btw.
         </div>
       </div>
     </a>

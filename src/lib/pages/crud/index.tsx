@@ -82,10 +82,10 @@ const App: React.FC = () => {
 
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-6">Blog Management</h1>
+      <h1 className="text-4xl font-bold mb-6">Posts Management</h1>
 
       <div className="mb-8">
-        <h2 className="text-2xl mb-4">Create New Blog</h2>
+        <h2 className="text-2xl mb-4">Create New Post</h2>
         <input
           className="border p-2 mb-2 w-full"
           placeholder="Title"
@@ -117,7 +117,7 @@ const App: React.FC = () => {
           onChange={(e) => setNewBlog({ ...newBlog, postUrl: e.target.value })}
         />
         <button type="button" className="bg-blue-500 text-white p-2 mt-4" onClick={createBlog}>
-          Create Blog
+          Create Post
         </button>
       </div>
 
@@ -155,7 +155,7 @@ const App: React.FC = () => {
         </div>
       )}
 
-      <h2 className="text-2xl mb-4">Existing Blogs</h2>
+      <h2 className="text-2xl mb-4">Existing Posts</h2>
       <ul className="space-y-4">
         {blogs.map((blog) => (
           <li key={blog._id} className="border p-4">

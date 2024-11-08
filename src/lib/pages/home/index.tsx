@@ -16,10 +16,10 @@ const Home = () => {
       {/* Left Column for IGCard, InCard, and SubsCard */}
       <Box ml={10} >
         <Square  width="80%"> {/* Adjust width as needed */}
-          <IGCard title={"Explore My Instagram!"} description={"Discover our curated collection of 500+ free animations, interaction concepts, UI designs, web templates & more."} />
+          <IGCard title={"Explore My Instagram!"} description={"just a guy that learning things...  i dont know to write here but ya gonna promote my insta. though i rarely active :p"} />
         </Square>
         <Square  width="80%"> {/* Adjust width as needed */}
-          <InCard title={"Explore My Linkedin!"} description={"Discover our curated collection of 500+ free animations, interaction concepts, UI designs, web templates & more."} />
+          <InCard title={"Explore My Linkedin!"} description={"dunno to what write here. I hadnt setup my Linkedin lmao. thou why you reading this. come back later "} />
         </Square>
         <Square width="80%"> 
           <SubsCard />

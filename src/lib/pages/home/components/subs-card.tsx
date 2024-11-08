@@ -59,7 +59,7 @@ const SubscribeCard = () => {
         Fresh frontend news plus dev & design inspiration delivered to your inbox
       </Text>
       <Text fontSize="md" mb="1rem">
-        👾 <strong>Hey! Looking for the latest in frontend?</strong> Twice a week, we'll deliver the freshest frontend news, website inspo, cool code demos, videos, and UI animations right to your inbox.
+        👾 <strong>Hey! Looking for the latest in frontend?</strong> Twice a month, I'll deliver the freshest frontend news, website inspo, cool code demos, videos, and UI animations right to your inbox.
       </Text>
       <Text fontSize="md" mb="1.5rem">
         <strong>Zero fluff, all quality,</strong> to make your Mondays and Thursdays more creative!
