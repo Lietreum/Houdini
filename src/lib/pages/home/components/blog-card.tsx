@@ -14,10 +14,15 @@ const BlogPostList = () => {
   const [blogs, setBlogs] = useState<Array<BlogPost>>([]);
 
   useEffect(() => {
-    fetch('https://houdini-api.vercel.app/api/blogs')
+    fetch('https://houdini-api.vercel.app/api/blogs', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    })
     .then(response => response.json())
-      .then(data => setBlogs(data))
-      .catch(error => console.error('Error fetching blog data:', error));
+    .then(data => setBlogs(data))
+    .catch(error => console.error('Error fetching blog data:', error));
   }, []);
 
   return (
