@@ -30,7 +30,7 @@ const BlogPostList = () => {
       {blogs.map(blog => (
         <div key={blog._id} className="flex items-start my-4">
           <div className="flex-shrink-0 mr-4 relative z-10">
-            <a href={blog.postUrl}>
+            <a href={blog.postUrl} target="_blank" rel="noopener noreferrer">
               <img
                 src={blog.imageUrl}
                 alt="Thumbnail"
@@ -43,13 +43,13 @@ const BlogPostList = () => {
           <div className="max-w-xs">
             <header>
               <h2 className="text-lg font-bold my-1 text-gray-800">
-                <a href={blog.postUrl} className="hover:underline">
+                <a href={blog.postUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
                   {blog.title}
                 </a>
               </h2>
               <p className="text-sm text-gray-500">
                 <time className="italic">{new Date(blog.timestamp).toLocaleString()}</time> by
-                <a href={blog.authorUrl} className="hover:underline ml-1">
+                <a href={blog.authorUrl} target="_blank" rel="noopener noreferrer" className="hover:underline ml-1">
                   {blog.author}
                 </a>
               </p>
