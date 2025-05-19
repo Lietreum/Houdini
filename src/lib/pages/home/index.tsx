@@ -21,9 +21,9 @@ const Home = () => {
           {" "}
           {/* Adjust width as needed */}
           <IGCard
-            title={"Explore My Instagram!"}
+            title={"Explore My Projects!"}
             description={
-              "just a guy that learning things...  i dont know to write here but ya gonna promote my insta. though i rarely active :p"
+              "Here’s a bunch of random stuff I built while avoiding real responsibilities. Might be useful, might crash your browser. Who knows? "
             }
           />
         </Square>
@@ -31,9 +31,9 @@ const Home = () => {
           {" "}
           {/* Adjust width as needed */}
           <InCard
-            title={"Explore My Linkedin!"}
+            title={"Explore My Design Playground"}
             description={
-              "dunno to what write here. I hadnt setup my Linkedin lmao. thou why you reading this. come back later "
+              "I mess around with colors and pixels. Sometimes it looks cool. Sometimes it doesn't. But hey, at least it's original."
             }
           />
         </Square>

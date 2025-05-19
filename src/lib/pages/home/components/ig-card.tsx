@@ -28,7 +28,7 @@ const IGCard: React.FC<CardProps> = ({ title, description }) => {
       </Text>
       <Link
         as={RouterLink}
-        {...{ to: "https://www.instagram.com/zekestuffs/" }}
+        {...{ to: "/#" }}
         target="_blank"                // Opens link in a new tab
         rel="noopener noreferrer"      // Security best practice
          fontSize="sm"

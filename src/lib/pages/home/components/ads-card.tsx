@@ -15,7 +15,7 @@ const CosCard: React.FC = () => {
           className="w-full rounded-t-lg"
         />
         <div className="p-6 text-sm leading-relaxed text-gray-800">
-          Youtube is a platform where you can create and watch videos. this card serve purpose as an ads card btw.
+          I sometimes post videos—maybe dev stuff, maybe memes. Either way, hit that red button 😎
         </div>
       </div>
     </a>

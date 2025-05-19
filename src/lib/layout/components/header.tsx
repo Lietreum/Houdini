@@ -50,7 +50,7 @@ export const Header = () => {
           </Text>
         </Link>
 
-        <Link to="/certificates" style={{ textDecoration: "none" }}>
+        {/* <Link to="/certificates" style={{ textDecoration: "none" }}>
           <Text
             fontWeight="bold"
             fontSize="sm"
@@ -76,7 +76,7 @@ export const Header = () => {
           >
             Newsletter
           </Text>
-        </Link>
+        </Link> */}
 
         {/* GitHub Link */}
         <Link to="https://github.com/Lietreum" target="_blank">
@@ -104,9 +104,9 @@ export const Header = () => {
       </Flex>
 
       {/* Search Section */}
-      <Box marginLeft="auto">
+      {/* <Box marginLeft="auto">
         <a href="/gateaway ">Create</a>
-        </Box>
+        </Box> */}
     </Flex>
   );
 };

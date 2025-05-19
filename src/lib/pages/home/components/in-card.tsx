@@ -36,7 +36,7 @@ const WotwBox: React.FC<WotwBoxProps> = ({ title, description }) => {
       </Text>
       <Link
         as={RouterLink} 
-        {...{ to: "https://www.instagram.com/zekestuffs/" }}
+        {...{ to: "/" }}
         target="_blank"                // Opens link in a new tab
         rel="noopener noreferrer"      // Security best practice
         fontSize={{ base: "xs", md: "sm" }}
